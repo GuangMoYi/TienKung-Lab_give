@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Model files (large files, consider using Git LFS)
+# *.pt
+# *.onnx
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+

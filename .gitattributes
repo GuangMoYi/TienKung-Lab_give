@@ -1,0 +1,11 @@
+# Prevent Git from treating files as symbolic links on Windows
+# This ensures all files are stored as regular files, not symlinks
+# Force Git to treat all files as regular files (not symlinks)
+* text=auto
+
+# USD files should be treated as binary to avoid line ending issues
+*.usd binary
+
+# Ensure asset files are treated as regular files
+legged_lab/assets/** text=auto
+
